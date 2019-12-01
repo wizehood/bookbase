@@ -1,6 +1,6 @@
 # BookBase
 
-- The project is ongoing test app for Node/Vue tech stack.
+The project is ongoing test app for Node/Vue tech stack.
 
 ### Backend project:
 - MongoDB server is prerequisite (https://www.mongodb.com/download-center/community)
@@ -46,4 +46,4 @@ npm run lint
 - `vuex` / `vuex-persist`
 
 ### Notes
-- In order to test the app both backend and web projects must be running. I used MongoDB Compass client for database inspection, but am open to suggestions. Also hit me back for any issues, forks etc. Cheers
+In order to test the app both backend and web projects must be running. I used MongoDB Compass client for database inspection, but am open to suggestions. Also hit me back for any issues, forks etc. Cheers
