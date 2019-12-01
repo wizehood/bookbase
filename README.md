@@ -2,7 +2,7 @@
 
 The project is ongoing test app for Node/Vue tech stack.
 
-![BookBase dashboard](web/screenshots/mainpage.PNG)
+![BookBase dashboard](web/screenshots/mainpage2.PNG)
 
 ### Backend project:
 - MongoDB server is prerequisite (https://www.mongodb.com/download-center/community)
