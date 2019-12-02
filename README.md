@@ -5,6 +5,7 @@ The project is ongoing test app for Node/Vue tech stack.
 ![BookBase dashboard](web/screenshots/mainpage.PNG)
 
 ### Backend project:
+- NodeJS environment is prerequisite (https://nodejs.org/en/)
 - MongoDB server is prerequisite (https://www.mongodb.com/download-center/community)
 
 - Setup
