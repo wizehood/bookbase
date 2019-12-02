@@ -40,7 +40,6 @@ router.post("/", auth, async (req, res) => {
 });
 
 router.patch("/", auth, async (req, res) => {
-  // const { title, pageNumber, description } = req.body;
   const book = await Book.findByIdAndUpdate(
     req.body._id,
     req.body,

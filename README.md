@@ -46,6 +46,7 @@ npm run lint
 - `mongodb` / `mongoose`
 - `jsonwebtoken` / `bcryptjs`
 - `nodemon`
+- `winston`
 - `vuex` / `vuex-persist`
 
 ### Notes
