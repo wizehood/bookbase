@@ -1,9 +1,11 @@
 const winston = require('winston');
+const path = require('path')
 
 module.exports = function () {
     winston.configure({
         transports: [
             new winston.transports.File({
+                dirname: path.join(__dirname, 'logs'),
                 filename: 'logfile.log', format: winston.format.combine(
                     winston.format.timestamp(),
                     winston.format.json()
@@ -13,6 +15,7 @@ module.exports = function () {
         ],
         exceptionHandlers: [
             new winston.transports.File({
+                dirname: path.join(__dirname, 'logs'),
                 filename: 'uncaughtExceptions.log', format: winston.format.combine(
                     winston.format.timestamp(),
                     winston.format.json()
